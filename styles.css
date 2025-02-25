@@ -1,25 +1,32 @@
+*{
+    margin: 0;
+}
+
 @font-face {
     font-family: "Outfit";
-    src: url("/static/Outfit-Regular.ttf");
+    src: url('Outfit-Regular.ttf');
 }
 
 
 body{
 
     background-color: hsl(212, 45%, 89%);
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit";
     font-size: 0.938rem;
+
 }
 
 #container{
     margin: 0 auto;
     padding: 0;
-    width: 100vw;
+    width: 100vh;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
 
 #main
